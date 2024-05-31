@@ -13,7 +13,7 @@ Bu proje, HTML ve CSS kullanarak Netflix temel alınarak oluşturulmuş basit bi
 2. Proje klasörüne gidin:
 
    ```bash
-   personal-promotion-website-project
+   netflix-clone-project
    ```
 
 3. `index.html` dosyasını tarayıcınızda açın.
