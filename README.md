@@ -7,7 +7,7 @@ Bu proje, HTML ve CSS kullanarak Netflix temel alınarak oluşturulmuş basit bi
 1. Bu projeyi klonlayın:
 
    ```bash
-   git clone https://github.com/cengo14/personal-promotion-website-project.git
+   git clone https://github.com/cengo14/netflix-clone-project.git
    ```
 
 2. Proje klasörüne gidin:
