@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+/* main area */
+.main {
+  background-image: url(./İmage/TR-tr-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  background-position: center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 644px;
+  position: relative;
+}
+.main .box {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 644px;
+  opacity: 0.6;
+}
+/* nav area */
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+  margin: auto;
+}
+.nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}
+.nav button {
+  position: relative;
+  z-index: 10;
+}
+.btn {
+  padding: 4px 9px;
+  background-color: rgba(248, 243, 243, 0.2);
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.btn-1:hover {
+  background-color: rgba(72, 66, 66, 0.2);
+}
+.btn-red {
+  background-color: red;
+}
+.btn-red:hover {
+  background-color: rgb(143, 11, 11);
+}
+/* hero area */
+.hero {
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+  padding: 0px 30px;
+  height: 565px;
+}
+.hero > :nth-child(1) {
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+}
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-buttons input {
+  padding: 7px 101px 8px 14px;
+  font-size: 12px;
+  background-color: rgba(23, 23, 23, 0.7);
+  outline: none;
+  border: 1px solid rgb(179, 179, 179);
+  border-radius: 4px;
+  color: white;
+}
+.hero-buttons :nth-child(2) {
+  font-size: 18px;
+  padding: 8px 24px;
+}
+input:hover {
+  background-color: #444343;
+}
+/* çizgi area */
+.seperation {
+  border: 3px solid rgb(54, 54, 54);
+}
+/* first area */
+.first {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+}
+.text-left {
+  z-index: 10;
+  position: relative;
+}
+.secImg {
+  position: relative;
+}
+.secImg:hover {
+  transform: scale(0.98);
+}
+.secImg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  right: 60px;
+  top: 70px;
+}
+.first h1 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+.first p{
+  font-size: 24px;
+  font-weight: bold;
+}
+/* faq area */
+.faq {
+  color: white;
+  background-color: black;
+  padding: 35px;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+.faq .faqbox {
+  background-color: #272727;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  margin: 34px auto;
+  cursor: pointer;
+  max-width: 60vh;
+  transition: all 0.4s;
+}
+.faq .faqbox:hover {
+  background-color: #444343;
+}
+/* question area */
+footer{
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+footer .question{
+  padding: 34px 0;
+  font-size: 25px;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+  font: 20px;
+}
+.footer .footer-item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.footer a:hover{
+  color: red;
+  transform: scale(1.1);
+}
+@media (max-width: 1200px) {
+  .first {
+  font-size: 10px;
+  font-weight: bold;
+}
+}
